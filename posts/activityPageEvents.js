@@ -1,13 +1,12 @@
-/*
+
 createPost(
     {
-        title: 'Coming Up...',
-        content: '<img src="../resources/images/current_flyer.png" alt="Flyer" style="width:100%">',
+        title: 'Tivia Night Jan 30th',
+        content: '<img src="../resources/images/trivia-night.png" alt="Flyer" style="width:100%">',
         size: 'third',
         show: true
     }
 );
-*/
 
 createPost(
     {
