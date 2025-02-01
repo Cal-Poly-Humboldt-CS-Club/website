@@ -1,8 +1,10 @@
 
 createPost(
     {
-        title: 'Tivia Night Jan 30th',
-        content: '<img src="../resources/images/trivia-night.png" alt="Flyer" style="width:100%">',
+        title: 'New Merch!',
+        content: '<img src="../resources/images/merch_flyer.png" alt="Merch Flyer" style="width:100%">',
+        button: 'Find your new shirt',
+        link: 'https://commerce.cashnet.com/HUM-RSO?CNAME=CL113+MERCH',
         size: 'third',
         show: true
     }

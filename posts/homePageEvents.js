@@ -23,13 +23,13 @@ createCard(
 
 createCard(
   {
-      title: 'Join the server',
-      iconClass: 'ri-discord-fill',
-      content: '<b>Say hello on Discord!</b> Stay tuned for event updates and notifications.',
+      title: 'Explore our Merch',
+      iconClass: 'ri-store-2-line',
+      content: '<b>New designs!</b> Show your support and represent your club.',
       actions: [
           {
-              label: 'Server Invite <i style="margin-left:5px" class="ri-external-link-fill"></i>',
-              href: 'https://csclubhumboldt.org/discordinvite'
+              label: 'Online store <i style="margin-left:5px" class="ri-external-link-fill"></i>',
+              href: 'https://commerce.cashnet.com/HUM-RSO?CNAME=CL113+MERCH'
           }
       ]
   }
