@@ -1,7 +1,7 @@
 createPost(
     {
-        title: 'Hackathon 2024 - Results',
-        content: `It's over! The <b>2024 Hackathon</b> has concluded. Thanks to everyone who participated, and to those who helped make it happen.`,
+        title: 'Hackathon 2025',
+        content: `It's coming up! The <b>2025 Hackathon</b> is going to happen March 8th and 9th. This year we are doing a hackathon for good by providing projects which will benefit local non-profits and businesses. <br><br> <b>Sign up now!</b>`,
         size: 'half',
         show: true
     },
