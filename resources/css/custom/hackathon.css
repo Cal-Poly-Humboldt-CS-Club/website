@@ -1,0 +1,135 @@
+/* Importing Orbitron Font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+.hackathon-content {
+    overflow-y: scroll;
+}
+.hack-banner {
+    height: fit-content;
+    border-radius: 15px;
+    background: #231f20;
+    overflow: hidden;
+}
+.hack-banner img {
+    width: 100%;
+}
+
+.hack-card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 24px;
+}
+.hack-card {
+    border-radius: 15px;
+    background: #231f20;
+    overflow: hidden;
+    padding: 20px;
+}
+.hack-card h1 {
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+    /* Using normal heading font */
+    font-family: 'Heading', sans-serif;
+    font-size: 30px;
+
+    /* Using Orbitron */
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.hack-card hr {
+    margin: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #3F8BD6;
+    color: #3F8BD6;
+    outline-color: #3F8BD6;
+    margin-bottom: -5px;
+}
+
+.hack-card ul {
+    display: block;
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0px;
+}
+.hack-card ul li {
+    position: relative;
+    margin-bottom: 10px; /* Add space between list items */
+    padding-left: 5px;
+}
+.hack-card ul li::before {
+    content: "";
+    position: absolute;
+    left: -14px;
+    top: 5px;
+    width: 12px;
+    height: 10px;
+    background-color: #BBDEFB;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.hack-signups {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.hack-signups h1 {
+    margin: 0px 10px;
+    margin-bottom: 10px;
+    font-size: 70px;
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.hack-signups button {
+    width: fit-content;
+    box-sizing: border-box;
+    background-color: #ffc72c !important;
+    border: none;
+    border-radius: 100vmin;
+    font-weight: bolder;
+    padding: 10px 40px;
+    margin: auto;
+    cursor: pointer;
+    color: #231F20;
+    font-size: 16px;
+}
+
+.hack-half {
+    width: calc(50% - 8px);
+    min-width: 340px;
+    max-width: 750px;
+}
+.full-width {
+    width: calc(100% - 250px - 16px);
+    max-width: 1650px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+}
+@media (max-width: 992px) {
+    .full-width {
+        width: calc(100% - 16px);
+    }
+}
+@media (max-width: 400px) {
+    .hack-half {
+        width: 100%;
+        min-width: 40px;
+    }
+    .hack-signups h1 {
+        font-size: 40px;
+    }
+}
