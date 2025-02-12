@@ -93,6 +93,9 @@
     font-weight: 700;
     font-style: normal;
 }
+.hack-signups p {
+    margin: 2px 0px;
+}
 .hack-signups button {
     width: fit-content;
     box-sizing: border-box;
@@ -102,6 +105,7 @@
     font-weight: bolder;
     padding: 10px 40px;
     margin: auto;
+    margin-top: 15px;
     cursor: pointer;
     color: #231F20;
     font-size: 16px;
