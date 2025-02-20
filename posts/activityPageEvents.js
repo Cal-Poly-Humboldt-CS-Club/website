@@ -1,17 +1,17 @@
 createPost(
     {
-        title: 'Hackathon time!',
-        content: '<img src="../resources/images/hackathon_flyer.png" alt="Open Source Talk Flyer" style="width:100%">',
-        button: 'Join the fun',
-        link: 'https://csclubhumboldt.org/hackathon/',
+        title: 'Data Center Tour',
+        content: '<img src="../resources/images/data_center_flyer.png" alt="Data Center Flyer" style="width:100%">',
         size: 'third',
         show: true
     }
 );
 createPost(
     {
-        title: 'Open Source Talk',
-        content: '<img src="../resources/images/open_source_flyer.png" alt="Open Source Talk Flyer" style="width:100%">',
+        title: 'Hackathon time!',
+        content: '<img src="../resources/images/hackathon_flyer.png" alt="Hackathon Flyer" style="width:100%">',
+        button: 'Join the fun',
+        link: 'https://csclubhumboldt.org/hackathon/',
         size: 'third',
         show: true
     }
