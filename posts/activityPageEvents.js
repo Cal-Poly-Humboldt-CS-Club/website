@@ -1,7 +1,7 @@
 createPost(
     {
-        title: 'Data Center Tour',
-        content: '<img src="../resources/images/data_center_flyer.png" alt="Data Center Flyer" style="width:100%">',
+        title: 'Hackathon Prep',
+        content: '<img src="../resources/images/hackathon_prep.png" alt="Data Center Flyer" style="width:100%">',
         size: 'third',
         show: true
     }
