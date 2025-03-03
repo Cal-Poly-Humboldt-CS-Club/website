@@ -1,7 +1,7 @@
 createPost(
     {
-        title: 'Hackathon Prep',
-        content: '<img src="../resources/images/hackathon_prep.png" alt="Data Center Flyer" style="width:100%">',
+        title: 'Hackathon Kickoff!',
+        content: '<img src="../resources/images/kickoff_flyer.png" alt="Hackathon Kickoff Event Flyer" style="width:100%">',
         size: 'third',
         show: true
     }
