@@ -109,13 +109,25 @@
     <!-- First Photo Grid-->
     <div class="w3-row-padding hackathon-content" id="postbody">
       <div class="hack-banner full-width">
-        <img src="../../images/Hackathon Cover.jpg" alt="Hackathon For Social Good 2025">
+        <img src="../../images/Hackathon-banner.png" alt="Hackathon For Social Good 2025">
       </div>
 
-      <div class="hack-card full-width">
-        <h1>About the Hackathon</h1>
-        <hr>
-        <p>This year's competition presents a unique opportunity for students across all academic disciplines to collaborate on real-world tech challenges submitted by <b>local nonprofit organizations</b>. Every project completed will directly support the local <b>Humboldt community</b>, making this a chance to apply your skills for a meaningful cause.</p>
+      <div class="full-width hack-signups">
+        <h1>Signups are open!</h1>
+        <p>Extended deadline to <b>March 2nd at 11:59 PM</b>!</p>
+        <button onclick="window.open('https://hackathonforgood2025.devpost.com/', '_blank').focus();">
+          Signup on Devpost
+          <i style="margin-left:5px" class="ri-external-link-fill"></i>
+        </button>
+      </div>
+
+      <div class="hack-card flex full-width">
+        <div class="left-custom"></div>
+        <div>
+          <h1>About the Hackathon</h1>
+          <hr>
+          <p>This year's competition presents a unique opportunity for students across all academic disciplines to collaborate on real-world tech challenges submitted by <b>local nonprofit organizations</b>. Every project completed will directly support the local <b>Humboldt community</b>, making this a chance to apply your skills for a meaningful cause.</p>
+        </div>
       </div>
 
       <!-- <div class="hack-card full-width">
@@ -163,15 +175,192 @@
         </div>
       </div>
 
-      <div class="full-width hack-signups">
-        <h1>Signups are open!</h1>
-        <p>Extended deadline to <b>March 2nd at 11:59 PM</b>!</p>
-        <p>Simply make a devpost account, and click "Sign Up"!</p>
-        <button onclick="window.open('https://hackathonforgood2025.devpost.com/', '_blank').focus();">
-          Signup on Devpost
-          <i style="margin-left:5px" class="ri-external-link-fill"></i>
-        </button>
+      <!-- Sponsors List -->
+      <div class="full-width hack-sponsors">
+        <h1>Thank you to our Sponsors!</h1>
+        <ul>
+          <li>
+            <img src="../../images/sponsors/coastcenteral.png" alt="Coast Central Credit Union">
+          </li>
+          <li>
+            <img src="../../images/sponsors/jackpot.png" alt="Cal Poly Humboldt Office of Student Life & Jackpot!">
+          </li>
+          <li>
+            <img src="../../images/sponsors/library.png" alt="Cal Poly Humboldt Library">
+          </li>
+          <li>
+            <img src="../../images/sponsors/coastfinancial.png" alt="Coastline Financial Services">
+          </li>
+          <li>
+            <img src="../../images/sponsors/krisp.png" alt="Krisp">
+          </li>
+          <li>
+            <img src="../../images/sponsors/green.png" alt="Bright and Green Humboldt">
+          </li>
+          <li>
+            <img src="../../images/sponsors/rotary.png" alt="Rotary Club of Arcata Sunrise">
+          </li>
+          <li>
+            <p>Cyril Oberlander</p>
+          </li>
+          <li>
+            <p>Warner Tillman</p>
+          </li>
+          <li>
+            <p>John Wegis</p>
+          </li>
+          <li>
+            <p>Joyce West</p>
+          </li>
+        </ul>
       </div>
+
+      <!-- Judges List -->
+      <div class="hack-card flex full-width hack-people">
+        <div class="left-custom"></div>
+        <div>
+          <h1>Judges</h1>
+          <hr>
+          <p>Meet the judges who will be evaluating the projects and awarding prizes!</p>
+
+          <ul>
+            <li>
+              <div class="profile">
+                <img src="/images/judge-mentors/Sharon Tuttle.jpg" alt="Judge 1">
+              </div>
+              <div>
+                <h2>Sharon Tuttle</h2>
+                <h3>Cal Poly Humboldt</h3>
+                <p>Sharon is a long-time Computer Science professor at Cal Poly Humboldt, and feels that computer science has a great potential to be a source of social good. She is delighted that the CS Club's Hackathon is focusing on this potential.</p>
+              </div>
+            </li>
+            <li>
+              <div class="profile">
+                <img src="/images/judge-mentors/Casey Hefner.jpg" alt="Judge 1">
+              </div>
+              <div>
+                <h2>Casey Hefner</h2>
+                <h3>Cal Poly Humboldt - ITS</h3>
+                <p>Casey has worked in technology for over a decade, most recently serving as a Sysadmin on campus. In addition to his tech career, Casey is dedicated to community service, volunteering with Planned Parenthood and distributing harm reduction supplies.</p>
+              </div>
+            </li>
+            <li>
+              <div class="profile">
+                <img src="/images/judge-mentors/Robert S.jpg" alt="Judge 1">
+              </div>
+              <div>
+                <h2>Bob Schoenfield</h2>
+                <h3>Krisp Technologies, Inc.</h3>
+                <p>Bob is an early-stage technology professional, serving as the founding COO and current EVP at Krisp, a leading Voice AI company. His work focuses on driving innovation and growth in the AI and technology space.</p>
+              </div>
+            </li>
+            <li class="none">
+              <div class="profile none"></div>
+              <div>
+                <h2>David Tuttle</h2>
+                <h3>Cal Poly Humboldt</h3>
+              </div>
+            </li>
+            <li class="none">
+              <div class="profile none"></div>
+              <div>
+                <h2>Ben Kovitz</h2>
+                <h3>Cal Poly Humboldt</h3>
+              </div>
+            </li>
+            <li class="none">
+              <div class="profile none"></div>
+              <div>
+                <h2>Shannon Whitmore</h2>
+                <h3>Illumina</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Mentors List -->
+      <div class="hack-card flex full-width hack-people">
+        <div class="left-custom"></div>
+        <div>
+          <h1>Mentors</h1>
+          <hr>
+          <p>Meet the mentors who will be available to help contestants with their projects!</p>
+
+          <ul>
+            <li>
+              <div class="profile">
+                <img src="/images/judge-mentors/Edwin Espinoza.jpg" alt="Edwin Espinoza">
+              </div>
+              <div>
+                <h2>Edwin Espinoza</h2>
+                <h3>Cal Poly Humboldt</h3>
+                <p>Edwin has experience in developing cloud software and approaches programming with a positive and open mindset. He is passionate about leveraging technology for social good, recognizing that social good is something that is often neglected in the technology space.</p>
+              </div>
+            </li>
+            <li>
+              <div class="profile">
+                <img src="/images/judge-mentors/Siri Varma Vegiraju.jpg" alt="Siri Varma Vegiraju">
+              </div>
+              <div>
+                <h2>Siri Varma Vegiraju</h2>
+                <h3>Microsoft</h3>
+                <p>Siri Varma Vegiraju is a seasoned expert in healthcare, cloud computing, and security. Currently, he focuses on securing Azure Cloud workloads, leveraging his extensive experience in distributed systems and real-time streaming solutions. Prior to his current role, Siri contributed significantly to cloud observability platforms and multi-cloud environments. He has demonstrated his expertise through notable achievements in various competitive events and as a judge and technical reviewer for leading publications. Siri frequently speaks at industry conferences on topics related to Cloud and Security and holds a Masters Degree from University of Texas, Arlington with a specialization in Computer Science.</p>
+              </div>
+            </li>
+            <li>
+              <div class="profile">
+                <img src="/images/judge-mentors/Anthony Cavuoti.jpg" alt="Anthony Cavuoti">
+              </div>
+              <div>
+                <h2>Anthony Cavuoti</h2>
+                <h3>Remnant Entertainment LLC</h3>
+                <p>A recent Cal Poly Humboldt alumnus, Anthony is a creative game and web developer, driven by innovation, problem-solving, and a passion for crafting meaningful digital experiences.</p>
+              </div>
+            </li>
+            <li class="none">
+              <div class="profile none"></div>
+              <div>
+                <h2>John Wegis</h2>
+                <h3>GenomeMedical and Cal Poly Humboldt</h3>
+                <p>John is a Principal Software Engineer at GenomeMedical with over 25 years of experience in full-stack development, backend engineering, and software architecture. His expertise includes Python, Flask, FastAPI, distributed systems, and cloud technologies. In addition to his industry work, John teaches CS 357 - Software Project Management at Cal Poly Humboldt, where he mentors students in software engineering best practices, Agile methodologies, and real-world project execution. He's passionate about innovation and education, and enjoys guiding teams through technical challenges to build scalable, impactful solutions.</p>
+              </div>
+            </li>
+            <li class="none">
+              <div class="profile none"></div>
+              <div>
+                <h2>Todd Chittenden</h2>
+                <h3>Five9</h3>
+                <p>Todd has been in the telecommunications industry for 29 years, starting as a technician and has worked his way to become an architect. His journey reflects both his broad experience and his sense of humor.</p>
+              </div>
+            </li>
+            <li class="none">
+              <div class="profile none"></div>
+              <div>
+                <h2>Clay McGlaughlin</h2>
+                <h3>College of the Redwoods / Humboldt County Office of Education</h3>
+                <p>Clay has been working in the IT field for over 20 years, starting as a user support analyst at a university and working his way up to director of IT for a Humboldt nonprofit. He currently teaches Computer Information Systems classes at College of the Redwoods as well as intro to computer programming for HCOE.</p>
+              </div>
+            </li>
+            <li class="none">
+              <div class="profile none"></div>
+              <div>
+                <h2>Sean Haas</h2>
+                <h3>Libsyn, Inc.</h3>
+              </div>
+            </li>
+            <li class="none">
+              <div class="profile none"></div>
+              <div>
+                <h2>Michael Crispin</h2>
+                <h3>Cal Poly Humboldt</h3>
+              </div>
+            </li>            
+          </ul>
+        </div>
+      </div>
+
+      <div class="spacer"></div>
 
 
       <!-- End page content -->
