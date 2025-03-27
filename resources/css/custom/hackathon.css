@@ -121,6 +121,7 @@
 }
 .hack-signups h1 {
     margin: 0px 10px;
+    margin-top: 30px;
     margin-bottom: 0px;
     font-size: 54px;
     font-family: "Orbitron", serif;
@@ -142,9 +143,34 @@
     padding: 10px 40px;
     margin: auto;
     margin-top: 15px;
+    margin-bottom: 65px;
     cursor: pointer;
     color: #231F20;
     font-size: 16px;
+}
+.hack-signups .imageGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin: auto;
+    margin-bottom: 24px;
+    max-width: 1100px;
+}
+.hack-signups .imageGrid img {
+    width: 100%;
+    max-width: min(calc(200px + 20vw), 540px);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+}
+.hack-signups .imageGrid .mainImage {
+    width: 100%;
+    max-width: 1100px;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+}
+@media (max-width: 749px) {
+    .hack-signups .imageGrid img {
+        max-width: 100%;
+    }
 }
 
 /* Sponsors list section */
@@ -286,6 +312,11 @@
 @media (max-width: 992px) {
     .full-width {
         width: calc(100% - 16px);
+    }
+}
+@media (max-width: 745px) {
+    .hack-half {
+        width: 100%;
     }
 }
 @media (max-width: 400px) {
