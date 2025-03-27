@@ -23,28 +23,14 @@ createCard(
 
 createCard(
     {
-        title: '2025 Hackathon!',
-        iconClass: 'ri-signpost-line',
-        content: '<b>Its happening!</b> Find out about this years Hackathon for Social Good.',
-        actions: [
+    title: 'Explore our Merch',
+    iconClass: 'ri-store-2-line',
+    content: '<b>New designs!</b> Show your support and represent your club.',
+    actions: [
             {
-                label: 'Hackathon page <i style="margin-left:5px" class="ri-external-link-fill"></i>',
-                href: 'https://csclubhumboldt.org/hackathon/'
+                label: 'Online store <i style="margin-left:5px" class="ri-external-link-fill"></i>',
+                href: 'https://commerce.cashnet.com/HUM-RSO?CNAME=CL113+MERCH'
             }
         ]
     }
-  );
-
-// createCard(
-//   {
-//       title: 'Explore our Merch',
-//       iconClass: 'ri-store-2-line',
-//       content: '<b>New designs!</b> Show your support and represent your club.',
-//       actions: [
-//           {
-//               label: 'Online store <i style="margin-left:5px" class="ri-external-link-fill"></i>',
-//               href: 'https://commerce.cashnet.com/HUM-RSO?CNAME=CL113+MERCH'
-//           }
-//       ]
-//   }
-// );
+);

@@ -1,17 +1,16 @@
 createPost(
     {
-        title: 'Hackathon Kickoff!',
-        content: '<img src="../resources/images/kickoff_flyer.png" alt="Hackathon Kickoff Event Flyer" style="width:100%">',
+        title: 'Jetpack Compose UI Workshop',
+        content: '<img src="../resources/images/jetpack_event.png" alt="Hackathon Kickoff Event Flyer" style="width:100%">',
         size: 'third',
         show: true
     }
 );
+
 createPost(
     {
-        title: 'Hackathon time!',
-        content: '<img src="../resources/images/hackathon_flyer.png" alt="Hackathon Flyer" style="width:100%">',
-        button: 'Join the fun',
-        link: 'https://csclubhumboldt.org/hackathon/',
+        title: 'Glow Merch Fundraiser',
+        content: '<img src="../resources/images/rave_poster.png" alt="Hackathon Kickoff Event Flyer" style="width:100%">',
         size: 'third',
         show: true
     }
