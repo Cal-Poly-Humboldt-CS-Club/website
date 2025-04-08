@@ -1,7 +1,7 @@
 createPost(
     {
-        title: 'Jetpack Compose UI Workshop',
-        content: '<img src="../resources/images/jetpack_event.png" alt="Hackathon Kickoff Event Flyer" style="width:100%">',
+        title: 'P5.js Game Workshop',
+        content: '<img src="../resources/images/p5js_game.png" alt="J5.js Game Workshop flyer" style="width:100%">',
         size: 'third',
         show: true
     }
@@ -10,7 +10,7 @@ createPost(
 createPost(
     {
         title: 'Glow Merch Fundraiser',
-        content: '<img src="../resources/images/rave_poster.png" alt="Hackathon Kickoff Event Flyer" style="width:100%">',
+        content: '<img src="../resources/images/rave_poster.png" alt="Glow Merch Fundraiser" style="width:100%">',
         size: 'third',
         show: true
     }
@@ -22,6 +22,15 @@ createPost(
         content: '<img src="../resources/images/merch_flyer.png" alt="Merch Flyer" style="width:100%">',
         button: 'Find your new shirt',
         link: 'https://commerce.cashnet.com/HUM-RSO?CNAME=CL113+MERCH',
+        size: 'third',
+        show: true
+    }
+);
+
+createPost(
+    {
+        title: 'Monthly Flyer',
+        content: '<img src="../resources/images/2025_April.png" alt="Monthly flyer for April" style="width:100%">',
         size: 'third',
         show: true
     }
