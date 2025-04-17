@@ -1,7 +1,7 @@
 createPost(
     {
-        title: 'P5.js Game Workshop',
-        content: '<img src="../resources/images/p5js_game.png" alt="J5.js Game Workshop flyer" style="width:100%">',
+        title: 'CS Club Elections',
+        content: '<img src="../resources/images/Elections.png" alt="Elections flyer" style="width:100%">',
         size: 'third',
         show: true
     }
