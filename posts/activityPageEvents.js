@@ -1,16 +1,7 @@
 createPost(
     {
-        title: 'CS Club Elections',
-        content: '<img src="../resources/images/Elections.png" alt="Elections flyer" style="width:100%">',
-        size: 'third',
-        show: true
-    }
-);
-
-createPost(
-    {
-        title: 'Glow Merch Fundraiser',
-        content: '<img src="../resources/images/rave_poster.png" alt="Glow Merch Fundraiser" style="width:100%">',
+        title: 'First Night Trivia',
+        content: '<img src="../resources/images/trivia_night.png" alt="First Night Trivia Flyer" style="width:100%">',
         size: 'third',
         show: true
     }
@@ -29,17 +20,8 @@ createPost(
 
 createPost(
     {
-        title: 'Monthly Flyer',
-        content: '<img src="../resources/images/2025_April.png" alt="Monthly flyer for April" style="width:100%">',
-        size: 'third',
-        show: true
-    }
-);
-
-createPost(
-    {
         title: 'Club Meeting Info',
-        content: '<i style="margin-right:5px" class="ri-calendar-fill"></i> <b style="font-size:16px">Thursdays / Weekly</b><br> <i style="margin-right:5px" class="ri-time-fill"></i> <b style="font-size:16px">6:00 - 7:30 PM</b><br> <i style="margin-right:5px" class="ri-map-pin-2-fill"></i> <b style="font-size:16px">BSS 302</b>',
+        content: '<i style="margin-right:5px" class="ri-calendar-fill"></i> <b style="font-size:16px">Wednesdays / Weekly</b><br> <i style="margin-right:5px" class="ri-time-fill"></i> <b style="font-size:16px">3:00 - 4:30 PM</b><br> <i style="margin-right:5px" class="ri-map-pin-2-fill"></i> <b style="font-size:16px">FOR 105</b>',
         button: 'Campus Map',
         link: 'https://www.humboldt.edu/sites/default/files/2023-01/campusmap.pdf',
         size: 'quarter',
