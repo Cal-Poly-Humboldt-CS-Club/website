@@ -1,0 +1,206 @@
+/* Importing Orbitron Font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400..900&display=swap');
+
+.icpc-content {
+    background-color: #0F2E57 !important;
+    /* background-color: #98cdea !important; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.icpc-content a {
+    color: #88c1ff;
+}
+.icpc-content a.pdf::after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 3px;
+    margin-bottom: 2px;
+    vertical-align: middle;
+    pointer-events: none;
+
+    /* use the PNG as a mask so we can color it */
+    background-image: none;
+    background-color: #88c1ff;
+    -webkit-mask-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAt0lEQVR4nN2VMQrCQBBFn4h2HkKwSuUxlBwkdzCNZe6SIjdI4TEsVy8RhIxNhGWxmJ3dKGRgixnm/8cssywsMU7AAxDFuVoATmkuVshHqO0ToJkbIDEQK0C0kBSA5ARE60rgGblBEjOBdvfFCvAbtsDFyzfAEbh9MTEB7sDOywegBQ5eLXmCOjAbgVVgUlkBoeAFdMA+1wShYA0UQJ8CmH2Lzpkg/3vJPwO4hOtx2i/TAnGTdmHxBmcF3dlLoRDMAAAAAElFTkSuQmCC");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    mask-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAt0lEQVR4nN2VMQrCQBBFn4h2HkKwSuUxlBwkdzCNZe6SIjdI4TEsVy8RhIxNhGWxmJ3dKGRgixnm/8cssywsMU7AAxDFuVoATmkuVshHqO0ToJkbIDEQK0C0kBSA5ARE60rgGblBEjOBdvfFCvAbtsDFyzfAEbh9MTEB7sDOywegBQ5eLXmCOjAbgVVgUlkBoeAFdMA+1wShYA0UQJ8CmH2Lzpkg/3vJPwO4hOtx2i/TAnGTdmHxBmcF3dlLoRDMAAAAAElFTkSuQmCC");
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Top banner with title */
+.icpc-banner {
+    height: fit-content;
+    /* border-radius: 15px; */
+    background: #231f20;
+    overflow: hidden;
+
+    border-radius: 10px;
+    border-style: outset;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    /* border: 1px solid rgba(29, 146, 219, 0.209); */
+    border: 1px solid rgba(68, 134, 210, 0.3);
+    /* border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    clip-path: polygon(20px 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0 20px);
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0; */
+}
+.icpc-banner img {
+    width: 100%;
+}
+
+/* Signup link/blurb */
+.icpc-signups {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+    /* padding-bottom: 25px; */
+}
+.icpc-signups h1 {
+    margin: 0px 10px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    font-size: 54px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+.icpc-signups .maincta {
+    width: fit-content;
+    box-sizing: border-box;
+    background-color: #EAB308 !important;
+    border: none;
+    border-radius: 100vmin;
+    font-weight: bolder;
+    padding: 10px 40px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 65px;
+    cursor: pointer;
+    color: #231F20;
+    font-size: 1.2rem;
+}
+
+.icpc-accent {
+    position: relative;
+    width: 100%;
+    height: 0px;
+    z-index: -1000;
+}
+.icpc-accent .acc1 {
+    position: absolute;
+    height: 280px;
+    top: -100px;
+    left: -110px;
+}
+.icpc-accent .acc2 {
+    position: absolute;
+    height: 650px;
+    top: -200px;
+    right: 50px;
+}
+
+.icpc-card {
+    /* background: #0D2441; */
+    background: #0b213b93;
+    color: rgb(241, 241, 241);
+    border-radius: 10px;
+    padding: 20px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1rem;
+
+    /* background: rgba(255, 255, 255, 0.2); */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(68, 134, 210, 0.3);
+}
+
+.icpc-card h1 {
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+}
+.icpc-card hr {
+    border-bottom-color: #EAB308;
+}
+.icpc-card .details {
+    display: grid;
+    grid-template-columns: min-content auto;
+    max-width: 600px;
+}
+.icpc-card .details .title {
+    font-weight: 700;
+    margin-bottom: 0px;
+    min-width: 150px;
+}
+.icpc-card .details .data {
+    padding-left: 30px;
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 600px) {
+    .icpc-card .details {
+        grid-template-columns: auto;
+    }
+}
+
+
+
+
+.hack-half {
+    width: calc(50% - 8px);
+    min-width: 340px;
+    max-width: 750px;
+}
+.full-width {
+    width: calc(100% - 250px - 16px);
+    max-width: 1650px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+}
+@media (max-width: 992px) {
+    .full-width {
+        width: calc(100% - 16px);
+    }
+    .icpc-accent {
+        width: calc(100% + 240px);
+    }
+}
+@media (max-width: 745px) {
+    .hack-half {
+        width: 100%;
+    }
+}
+@media (max-width: 400px) {
+    .hack-half {
+        width: 100%;
+        min-width: 40px;
+    }
+    .icpc-signups h1 {
+        font-size: 40px;
+    }
+}
+
+.spacer {
+    height: 60px;
+}
+.spacer1-2 {
+    height: 30px;
+}
