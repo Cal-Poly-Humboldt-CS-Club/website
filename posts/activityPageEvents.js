@@ -1,11 +1,11 @@
-createPost(
-    {
-        title: 'First Night Trivia',
-        content: '<img src="../resources/images/trivia_night.png" alt="First Night Trivia Flyer" style="width:100%">',
-        size: 'third',
-        show: true
-    }
-);
+// createPost(
+//     {
+//         title: 'First Night Trivia',
+//         content: '<img src="../resources/images/trivia_night.png" alt="First Night Trivia Flyer" style="width:100%">',
+//         size: 'third',
+//         show: true
+//     }
+// );
 
 createPost(
     {
