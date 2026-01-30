@@ -21,7 +21,7 @@ createPost(
 createPost(
     {
         title: 'Club Meeting Info',
-        content: '<i style="margin-right:5px" class="ri-calendar-fill"></i> <b style="font-size:16px">Wednesdays / Weekly</b><br> <i style="margin-right:5px" class="ri-time-fill"></i> <b style="font-size:16px">3:00 - 4:30 PM</b><br> <i style="margin-right:5px" class="ri-map-pin-2-fill"></i> <b style="font-size:16px">FOR 105</b>',
+        content: '<i style="margin-right:5px" class="ri-calendar-fill"></i> <b style="font-size:16px">Wednesdays / Weekly</b><br> <i style="margin-right:5px" class="ri-time-fill"></i> <b style="font-size:16px">5:00 - 6:30 PM</b><br> <i style="margin-right:5px" class="ri-map-pin-2-fill"></i> <b style="font-size:16px">BSS 166</b>',
         button: 'Campus Map',
         link: 'https://www.humboldt.edu/sites/default/files/2023-01/campusmap.pdf',
         size: 'quarter',
