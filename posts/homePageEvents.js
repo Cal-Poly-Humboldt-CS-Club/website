@@ -7,19 +7,18 @@ createCard(
   }
 );
 
-createCard(
-  {
-      title: 'Current Events',
-      iconClass: 'ri-calendar-line',
-      content: '<ul><li><b>Club Meetings</b> - Wednesdays 5:00-6:30 PM <span class="li-span left" onclick="window.location.href = \"activities/index.html\"">More Info</span></li></ul>',
-      actions: [
-          {
-              label: 'Club Activities <i style="margin-left:5px" class="ri-external-link-fill"></i>',
-              href: 'activities/index.html'
-          }
-      ]
-  }
-);
+createCard({
+  title: 'Current Events',
+  iconClass: 'ri-calendar-line',
+  content: '<ul><li><b>Club Meetings</b> - Wednesdays 5:00–6:30 PM <span class="li-span left" onclick="window.location.href=\'activities/index.html\'">More Info</span></li></ul>',
+  actions: [
+    {
+      label: 'Club Activities <i style="margin-left:5px" class="ri-external-link-fill"></i>',
+      href: 'activities/index.html'
+    }
+  ]
+});
+
 
 createCard(
     {
