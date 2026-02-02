@@ -6,6 +6,15 @@
 //         show: true
 //     }
 // );
+createPost(
+    {
+        title: 'Git + GitHub Workshop',
+        content: '<img src="../resources/images/s26/s26-meet2.png" alt="Git + GitHub Workshop Flyer" style="width:100%"/><i style="margin-right:5px" class="ri-calendar-fill"></i><b style="font-size:16px">February 4 2026</b><br /><i style="margin-right:5px" class="ri-time-fill"></i> <b style="font-size:16px">5:00 - 6:30 PM</b><br /><i style="margin-right:5px" class="ri-map-pin-2-fill"></i> <b style="font-size:16px">BSS 166</b>',
+        size: 'third',
+        show: true
+    }
+)
+
 
 createPost(
     {
@@ -20,7 +29,7 @@ createPost(
 createPost(
     {
         title: 'First Night Trivia',
-        content: '<img src="../resources/images/s26/s26-meet1.png" alt="First Night Trivia Flyer" style="width:100%"/><i style="margin-right:5px" class="ri-calendar-fill"></i><b style="font-size:16px">Jan 28 2026</b><br /><i style="margin-right:5px" class="ri-time-fill"></i> <b style="font-size:16px">5:00 - 6:30 PM</b><br /><i style="margin-right:5px" class="ri-map-pin-2-fill"></i> <b style="font-size:16px">BSS 166</b>',
+        content: '<img src="../resources/images/s26/s26-meet1.png" alt="First Night Trivia Flyer" style="width:100%"/><i style="margin-right:5px" class="ri-calendar-fill"></i><b style="font-size:16px">January 28 2026</b><br /><i style="margin-right:5px" class="ri-time-fill"></i> <b style="font-size:16px">5:00 - 6:30 PM</b><br /><i style="margin-right:5px" class="ri-map-pin-2-fill"></i> <b style="font-size:16px">BSS 166</b>',
         size: 'third',
         show: true
     }
