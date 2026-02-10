@@ -1,0 +1,334 @@
+/* Importing Orbitron Font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+.hackathon-content {
+    background-color: #3f8ad5 !important;
+    background-color: #577ca0 !important;
+    background-color: #171b1b !important;
+    background-color: #242123 !important;
+    /* background-color: #98cdea !important; */
+    overflow-y: scroll;
+}
+
+/* Top banner with title */
+.hack-banner {
+    height: fit-content;
+    /* border-radius: 15px; */
+    background: #231f20;
+    overflow: hidden;
+
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    clip-path: polygon(20px 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0 20px);
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.hack-banner img {
+    width: 100%;
+}
+
+/* Makes a grid of cards... */
+.hack-card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 24px;
+}
+.hack-card-grid .hack-card {
+    /* clip-path: polygon(20px 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0 20px); */
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+}
+
+/* Hack cards, used throughout the page */
+.hack-card {
+    background: #231f20;
+    background: #292c31;
+    overflow: hidden;
+    padding: 20px;
+}
+.hack-card.flex {
+    display: flex;
+    flex-direction: row;
+    border-radius: 0px;
+}
+.hack-card h1 {
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+    /* Using normal heading font */
+    font-family: 'Heading', sans-serif;
+    font-size: 30px;
+
+    /* Using Orbitron */
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.hack-card hr {
+    margin: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #3F8BD6;
+    color: #3F8BD6;
+    outline-color: #3F8BD6;
+    margin-bottom: -5px;
+}
+
+.hack-card ul {
+    display: block;
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0px;
+}
+.hack-card ul li {
+    position: relative;
+    margin-bottom: 10px; /* Add space between list items */
+    padding-left: 5px;
+}
+.hack-card ul li::before {
+    content: "";
+    position: absolute;
+    left: -14px;
+    top: 5px;
+    width: 12px;
+    height: 10px;
+    background-color: #BBDEFB;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.hack-card .left-custom {
+    margin: -20px;
+    margin-right: 20px;
+    padding: 15px;
+    background: #98cdea;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+    max-height: 250px;
+}
+
+/* Signup link/blurb */
+.hack-signups {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.hack-signups h1 {
+    margin: 0px 10px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 54px;
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.hack-signups p {
+    margin: 2px 0px;
+    margin-bottom: 10px;
+}
+.hack-signups button {
+    width: fit-content;
+    box-sizing: border-box;
+    background-color: #ffc72c !important;
+    border: none;
+    border-radius: 100vmin;
+    font-weight: bolder;
+    padding: 10px 40px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 65px;
+    cursor: pointer;
+    color: #231F20;
+    font-size: 16px;
+}
+.hack-signups .imageGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin: auto;
+    margin-bottom: 24px;
+    max-width: 1100px;
+}
+.hack-signups .imageGrid img {
+    width: 100%;
+    max-width: min(calc(200px + 20vw), 540px);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+}
+.hack-signups .imageGrid .mainImage {
+    width: 100%;
+    max-width: 1100px;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+}
+@media (max-width: 749px) {
+    .hack-signups .imageGrid img {
+        max-width: 100%;
+    }
+}
+
+/* Sponsors list section */
+.hack-sponsors {
+    padding-bottom: 30px;
+}
+.hack-sponsors h1 {
+    font-size: 54px;
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 24px;
+}
+.hack-sponsors ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 24px;
+}
+.hack-sponsors ul li {
+    width: 100%;
+    max-width: 300px;
+    height: 140px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+}
+.hack-sponsors ul p {
+    margin: 0px;
+    font-size: 1.5rem;
+    /* font-family: "Orbitron", serif; */
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+}
+
+/* Mentors and Judges section */
+.hack-people {
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+}
+.hack-people ul {
+    list-style: none;
+    gap: 16px;
+}
+.hack-people ul li {
+    display: flex;
+    flex-direction: row;
+}
+.hack-people ul .profile {
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background: #4a4c4d;
+}
+.hack-people ul .profile.none {
+    background: none;
+}
+.hack-people ul img {
+    width: 100px;
+    height: 100px;
+    max-width: none;
+    border-radius: 50%;
+    object-fit: cover;
+
+    /* Centering alt-text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hack-people h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+.hack-people h3 {
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.hack-people ul li::before {
+    background: none;
+}
+.hack-people ul li.none::before {
+    content: "";
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    width: 50px;
+    height: 45px;
+    background-color: #BBDEFB;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+@media (max-width: 500px) {
+    .hack-people ul li {
+        flex-direction: column;
+    }
+    .hack-people ul .profile {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .hack-people ul li.none::before {
+        top: 30px;
+    }
+}
+@media (max-width: 400px) {
+    .hack-people ul {
+        padding-left: 0px;
+    }
+}
+
+.hack-half {
+    width: calc(50% - 8px);
+    min-width: 340px;
+    max-width: 750px;
+}
+.full-width {
+    width: calc(100% - 250px - 16px);
+    max-width: 1650px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+}
+@media (max-width: 992px) {
+    .full-width {
+        width: calc(100% - 16px);
+    }
+}
+@media (max-width: 745px) {
+    .hack-half {
+        width: 100%;
+    }
+}
+@media (max-width: 400px) {
+    .hack-half {
+        width: 100%;
+        min-width: 40px;
+    }
+    .hack-signups h1 {
+        font-size: 40px;
+    }
+}
+
+.spacer {
+    height: 60px;
+}

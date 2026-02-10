@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)https://www.w3schools.com/w3css/tryw3css_templates_portfolio.htm -->
+<html>
+
+<head>
+  <title>Cal Poly Humboldt - CS Club - Hackathon News</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="title" content="Cal Poly Humboldt - CS Club">
+  <meta name="description" content="Work together, learn new skills, and explore career opportunities.">
+  <meta name="keywords"
+    content="computer, computer science, college, club, humboldt, education, community, coding, programming, ai, artificial intelligence">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="30 days">
+  <meta name="author" content="Andrew">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="favicon" href="../../resources/images/icons/logo.png">
+
+  <link rel="stylesheet" href="../../resources/css/lib/uikit.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.11/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.11/dist/js/uikit-icons.min.js"></script>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Honk&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sixtyfour&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../../resources/css/custom/fontConfig.css">
+  <link rel="stylesheet" href="../../resources/css/custom/pageStyle.css">
+  <link rel="stylesheet" href="../../resources/css/custom/activityPage.css">
+  <link rel="stylesheet" href="../../resources/css/custom/hackathon25.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.trunk.min.js"></script>
+
+  <link rel="manifest" href="https://csclubhumboldt.org/resources/js/custom/manifest.json">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://csclubhumboldt.org/resources/images/icons/icon-72x72.png">
+  <link rel="icon" type="image/png" sizes="96x96"
+    href="https://csclubhumboldt.org/resources/images/icons/icon-96x96.png">
+  <link rel="icon" type="image/png" sizes="128x128"
+    href="https://csclubhumboldt.org/resources/images/icons/icon-128x128.png">
+  <link rel="icon" type="image/png" sizes="144x144"
+    href="https://csclubhumboldt.org/resources/images/icons/icon-144x144.png">
+  <link rel="icon" type="image/png" sizes="152x152"
+    href="https://csclubhumboldt.org/resources/images/icons/icon-152x152.png">
+  <link rel="icon" type="image/png" sizes="192x192"
+    href="https://csclubhumboldt.org/resources/images/icons/icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="384x384"
+    href="https://csclubhumboldt.org/resources/images/icons/icon-384x384.png">
+  <link rel="icon" type="image/png" sizes="512x512"
+    href="https://csclubhumboldt.org/resources/images/icons/icon-512x512.png">
+  <meta name="theme-color" content="#ffc72c">
+  <meta name="background-color" content="#346241">
+  <meta name="msapplication-TileColor" content="#346241">
+  <meta name="msapplication-TileImage" content="https://csclubhumboldt.org/resources/images/icons/icon-144x144.png">
+  <meta name="msapplication-config" content="https://csclubhumboldt.org/browserconfig.xml">
+  <meta name="application-name" content="Cal Poly Humboldt - CS Club">
+  <meta name="apple-mobile-web-app-title" content="CPH - CS Club">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="mobile-web-app-capable" content="yes">
+
+</head>
+
+<body>
+
+  <!-- Sidebar/menu -->
+  <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:250px;" id="mySidebar"><br>
+    <div class="w3-container">
+      <a onclick="w3_close()" class="w3-hide-large w3-left w3-hover-grey"
+        style="font-size:50px!important;line-height:1;z-index:1000;" title="close menu">
+        <i class="fa fa-remove"></i>
+      </a>
+      <div id="logoContainer">
+        <img id="pageLogo" src="../../resources/images/icons/logo.png"
+          onclick="window.location.href = 'https://csclubhumboldt.org'" class="w3-round"><br><br>
+      </div>
+      <h4 style="font-family:'Heading'"><b>Club Activities</b></h4>
+      <hr style="margin-bottom:5px">
+    </div>
+    <div class="w3-bar-block" id ="mySidebar-items">
+
+    </div>
+
+  </nav>
+
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
+    title="close side menu" id="myOverlay"></div>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main" style="margin-left: 250px;">
+
+    <!-- Header -->
+    <header id="portfolio" class="mobile-only">
+      <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i
+          class="fa fa-bars"></i></span>
+      <div class="w3-container">
+        <h1 class="w3-text-white"><b>Club Activities</b></h1>
+      </div>
+    </header>
+
+    <!-- First Photo Grid-->
+    <div class="w3-row-padding hackathon-content" id="postbody">
+      <div class="hack-banner full-width">
+        <img src="../../images/Hackathon-banner.png" alt="Hackathon For Social Good 2025">
+      </div>
+      
+      <div class="full-width hack-signups">
+        <h1>Thank you to all who participated</h1>
+        <button onclick="window.open('https://hackathonforgood2025.devpost.com/', '_blank').focus();">
+          See all the projects on Devpost
+          <i style="margin-left:5px" class="ri-external-link-fill"></i>
+        </button>
+
+        <div class="imageGrid">
+          <img class="mainImage" src="../../images/hackathon/1.jpg" alt="Hackathon 2025">
+          <img src="../../images/hackathon/2.jpg" alt="Hackathon 2025">
+          <img src="../../images/hackathon/3.jpg" alt="Hackathon 2025">
+          <img src="../../images/hackathon/4.jpg" alt="Hackathon 2025">
+          <img src="../../images/hackathon/5.jpg" alt="Hackathon 2025">
+        </div>
+      </div>
+
+      <div class="hack-card flex full-width">
+        <div class="left-custom"></div>
+        <div>
+          <h1>About the Hackathon</h1>
+          <hr>
+          <p>This year's competition presents a unique opportunity for students across all academic disciplines to collaborate on real-world tech challenges submitted by <b>local nonprofit organizations</b>. Every project completed will directly support the local <b>Humboldt community</b>, making this a chance to apply your skills for a meaningful cause.</p>
+        </div>
+      </div>
+
+      <!-- <div class="hack-card full-width">
+        <h1>Challenge Options</h1>
+        <hr>
+        <p>Participants will have the opportunity to choose from a variety of challenges, each submitted by a local nonprofit organization. Exact details will be announced at the kickoff event!</p>
+        <ul>
+          <li>
+            <b>🐾 Sequoia Humane Society</b> - Helping improve pet adoption and care in our community
+          </li>
+          <li>
+            <b>🎨 HCAR The Studio</b> - Supporting artists with disabilities through technology
+          </li>
+          <li>
+            <b>🌊 Baduwa't Watershed Council</b> - Protecting local water systems and restoring ecosystems
+          </li>
+          <li>
+            <b>🤝 Northern CA Association of Nonprofits</b> - Strengthening local nonprofits with tech-driven solutions
+          </li>
+          <li>
+            <b>🚜 Humboldt County Farm Bureau</b> - Supporting sustainable agriculture and food systems
+          </li>
+        </ul>
+      </div> -->
+
+      <div class="hack-card-grid full-width">
+        <div class="hack-card hack-half">
+          <h1>Event Details</h1>
+          <hr>
+          <p>Total design and programming time: 22 hours spread across two days, with a kickoff event before hand...</p>
+          <ul>
+            <li><b>Kickoff Event:</b> Thursday, March 6th from 6:00 PM - 7:30 PM in BSS 166 (required for participants) </li>
+            <li><b>Competition begins:</b> Saturday, March 8th from 8:00 AM - 10:00 PM and continues on Sunday, March 9th from 8:00 AM - 7:00 PM in Harry Griffith Hall. </li>
+          </ul>
+        </div>
+        <div class="hack-card hack-half">
+          <h1>Team Details</h1>
+          <hr>
+          <p>Whether you're a programmer, artist, entrepreneur, or someone else eager to contribute your talents, you'll have the ability to apply your skills for a meaningful cause.</p>
+          <ul>
+            <li><b>Team Size:</b> 2 to 5 people, all majors welcome.</li>
+            <li><b>Team Composition:</b> We require at least one student with programming experience on a team.</li>
+            <li><b>No team? No problem:</b> we'll help you find one!</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Sponsors List -->
+      <div class="full-width hack-sponsors">
+        <h1>Thank you to our Sponsors!</h1>
+        <ul>
+          <li>
+            <img src="../../images/sponsors/coastcenteral.png" alt="Coast Central Credit Union">
+          </li>
+          <li>
+            <img src="../../images/sponsors/jackpot.png" alt="Cal Poly Humboldt Office of Student Life & Jackpot!">
+          </li>
+          <li>
+            <img src="../../images/sponsors/library.png" alt="Cal Poly Humboldt Library">
+          </li>
+          <li>
+            <img src="../../images/sponsors/coastfinancial.png" alt="Coastline Financial Services">
+          </li>
+          <li>
+            <img src="../../images/sponsors/krisp.png" alt="Krisp">
+          </li>
+          <li>
+            <img src="../../images/sponsors/green.png" alt="Bright and Green Humboldt">
+          </li>
+          <li>
+            <img src="../../images/sponsors/rotary.png" alt="Rotary Club of Arcata Sunrise">
+          </li>
+          <li>
+            <p>Cyril Oberlander</p>
+          </li>
+          <li>
+            <p>Warner Tillman</p>
+          </li>
+          <li>
+            <p>John Wegis</p>
+          </li>
+          <li>
+            <p>Joyce West</p>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Judges List -->
+      <div class="hack-card flex full-width hack-people">
+        <div class="left-custom"></div>
+        <div>
+          <h1>Judges</h1>
+          <hr>
+          <p>Meet the judges who will be evaluating the projects and awarding prizes!</p>
+
+          <ul>
+            <li>
+              <div class="profile">
+                <img src="/images/judge-mentors/Sharon Tuttle.jpg" alt="Judge 1">
+              </div>
+              <div>
+                <h2>Sharon Tuttle</h2>
+                <h3>Cal Poly Humboldt</h3>
+                <p>Sharon is a long-time Computer Science professor at Cal Poly Humboldt, and feels that computer science has a great potential to be a source of social good. She is delighted that the CS Club's Hackathon is focusing on this potential.</p>
+              </div>
+            </li>
+            <li>
+              <div class="profile">
+                <img src="/images/judge-mentors/Casey Hefner.jpg" alt="Judge 1">
+              </div>
+              <div>
+                <h2>Casey Hefner</h2>
+                <h3>Cal Poly Humboldt - ITS</h3>
+                <p>Casey has worked in technology for over a decade, most recently serving as a Sysadmin on campus. In addition to his tech career, Casey is dedicated to community service, volunteering with Planned Parenthood and distributing harm reduction supplies.</p>
+              </div>
+            </li>
+            <li>
+              <div class="profile">
+                <img src="/images/judge-mentors/Robert S.jpg" alt="Judge 1">
+              </div>
+              <div>
+                <h2>Bob Schoenfield</h2>
+                <h3>Krisp Technologies, Inc.</h3>
+                <p>Bob is an early-stage technology professional, serving as the founding COO and current EVP at Krisp, a leading Voice AI company. His work focuses on driving innovation and growth in the AI and technology space.</p>
+              </div>
+            </li>
+            <li class="none">
+              <div class="profile none"></div>
+              <div>
+                <h2>David Tuttle</h2>
+                <h3>Cal Poly Humboldt</h3>
+              </div>
+            </li>
+            <li class="none">
+              <div class="profile none"></div>
+              <div>
+                <h2>Ben Kovitz</h2>
+                <h3>Cal Poly Humboldt</h3>
+              </div>
+            </li>
+            <li class="none">
+              <div class="profile none"></div>
+              <div>
+                <h2>Shannon Whitmore</h2>
+                <h3>Illumina</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Mentors List -->
+      <div class="hack-card flex full-width hack-people">
+        <div class="left-custom"></div>
+        <div>
+          <h1>Mentors</h1>
+          <hr>
+          <p>Meet the mentors who will be available to help contestants with their projects!</p>
+
+          <ul>
+            <li>
+              <div class="profile">
+                <img src="/images/judge-mentors/Edwin Espinoza.jpg" alt="Edwin Espinoza">
+              </div>
+              <div>
+                <h2>Edwin Espinoza</h2>
+                <h3>Cal Poly Humboldt</h3>
+                <p>Edwin has experience in developing cloud software and approaches programming with a positive and open mindset. He is passionate about leveraging technology for social good, recognizing that social good is something that is often neglected in the technology space.</p>
+              </div>
+            </li>
+            <li>
+              <div class="profile">
+                <img src="/images/judge-mentors/Siri Varma Vegiraju.jpg" alt="Siri Varma Vegiraju">
+              </div>
+              <div>
+                <h2>Siri Varma Vegiraju</h2>
+                <h3>Microsoft</h3>
+                <p>Siri Varma Vegiraju is a seasoned expert in healthcare, cloud computing, and security. Currently, he focuses on securing Azure Cloud workloads, leveraging his extensive experience in distributed systems and real-time streaming solutions. Prior to his current role, Siri contributed significantly to cloud observability platforms and multi-cloud environments. He has demonstrated his expertise through notable achievements in various competitive events and as a judge and technical reviewer for leading publications. Siri frequently speaks at industry conferences on topics related to Cloud and Security and holds a Masters Degree from University of Texas, Arlington with a specialization in Computer Science.</p>
+              </div>
+            </li>
+            <li>
+              <div class="profile">
+                <img src="/images/judge-mentors/Tara Strickwerda.jpg" alt="Tara Strickwerda">
+              </div>
+              <div>
+                <h2>Tara Strickwerda</h2>
+                <h3>StreamGuys</h3>
+                <p>A customer success leader with over 25 years of experience delivering simple to complex solutions across multiple industries, many of them Humboldt-based. A problem solver by nature and by education, Tara earned a Bachelor's degree in Mathematics at Humboldt State University (now Cal Poly Humboldt); translating her equation solving skills to solve real world problems faced by clients and organizations.</p>
+              </div>
+            </li>
+            <li>
+              <div class="profile">
+                <img src="/images/judge-mentors/Anthony Cavuoti.jpg" alt="Anthony Cavuoti">
+              </div>
+              <div>
+                <h2>Anthony Cavuoti</h2>
+                <h3>Remnant Entertainment LLC</h3>
+                <p>A recent Cal Poly Humboldt alumnus, Anthony is a creative game and web developer, driven by innovation, problem-solving, and a passion for crafting meaningful digital experiences.</p>
+              </div>
+            </li>
+            <li class="none">
+              <div class="profile none"></div>
+              <div>
+                <h2>John Wegis</h2>
+                <h3>GenomeMedical and Cal Poly Humboldt</h3>
+                <p>John is a Principal Software Engineer at GenomeMedical with over 25 years of experience in full-stack development, backend engineering, and software architecture. His expertise includes Python, Flask, FastAPI, distributed systems, and cloud technologies. In addition to his industry work, John teaches CS 357 - Software Project Management at Cal Poly Humboldt, where he mentors students in software engineering best practices, Agile methodologies, and real-world project execution. He's passionate about innovation and education, and enjoys guiding teams through technical challenges to build scalable, impactful solutions.</p>
+              </div>
+            </li>
+            <li class="none">
+              <div class="profile none"></div>
+              <div>
+                <h2>Todd Chittenden</h2>
+                <h3>Five9</h3>
+                <p>Todd has been in the telecommunications industry for 29 years, starting as a technician and has worked his way to become an architect. His journey reflects both his broad experience and his sense of humor.</p>
+              </div>
+            </li>
+            <li class="none">
+              <div class="profile none"></div>
+              <div>
+                <h2>Clay McGlaughlin</h2>
+                <h3>College of the Redwoods / Humboldt County Office of Education</h3>
+                <p>Clay has been working in the IT field for over 20 years, starting as a user support analyst at a university and working his way up to director of IT for a Humboldt nonprofit. He currently teaches Computer Information Systems classes at College of the Redwoods as well as intro to computer programming for HCOE.</p>
+              </div>
+            </li>
+            <li class="none">
+              <div class="profile none"></div>
+              <div>
+                <h2>Sean Haas</h2>
+                <h3>Libsyn, Inc.</h3>
+              </div>
+            </li>
+            <li class="none">
+              <div class="profile none"></div>
+              <div>
+                <h2>Michael Crispin</h2>
+                <h3>Cal Poly Humboldt</h3>
+              </div>
+            </li>            
+          </ul>
+        </div>
+      </div>
+
+      <div class="spacer"></div>
+
+      <div class="full-width hack-signups">
+        <h1>Stay tuned for next year!</h1>
+      </div>
+
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+
+
+      <!-- End page content -->
+
+
+
+    </div>
+
+    <footer>
+      <i class="ri-discord-fill" onclick="window.location.href = 'https://csclubhumboldt.org/discordinvite'"></i>
+      <i class="ri-instagram-fill" onclick="window.location.href = 'https://www.instagram.com/csclubhumboldt/'"></i>
+      <i class="ri-threads-fill" onclick="window.location.href = 'https://www.threads.net/csclubhumboldt/'"></i>
+    </footer>
+
+    <script src="../../posts/activityPageConfig.js"></script>
+    <script src="../../resources/js/custom/w3PageFunctions.js"></script>
+    <script src="../../posts/hackathonPageEvents.js"></script>
+
+
+</body>
+
+</html>
