@@ -1,20 +1,19 @@
-/* Importing Orbitron Font */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 .hackathon-content {
-    background-color: #3f8ad5 !important;
-    background-color: #577ca0 !important;
-    background-color: #171b1b !important;
-    background-color: #242123 !important;
-    /* background-color: #98cdea !important; */
+    background-color: #1B1B1B !important;
     overflow-y: scroll;
+    
+    color: #A8B8A8;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Top banner with title */
 .hack-banner {
     height: fit-content;
-    /* border-radius: 15px; */
-    background: #231f20;
     overflow: hidden;
 
     border-top-left-radius: 0;
@@ -39,13 +38,12 @@
 }
 .hack-card-grid .hack-card {
     /* clip-path: polygon(20px 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0 20px); */
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%); */
 }
 
 /* Hack cards, used throughout the page */
 .hack-card {
-    background: #231f20;
-    background: #292c31;
+    background: #142B14;
     overflow: hidden;
     padding: 20px;
 }
@@ -59,22 +57,19 @@
     margin-bottom: 10px;
     font-size: 20px;
 
-    /* Using normal heading font */
-    font-family: 'Heading', sans-serif;
-    font-size: 30px;
-
-    /* Using Orbitron */
-    font-family: "Orbitron", serif;
+    font-family: "Red Hat Display", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 900;
     font-style: normal;
+
+    color: white;
 }
 .hack-card hr {
     margin: 0px;
     margin-bottom: 0px;
-    border: 1px solid #3F8BD6;
-    color: #3F8BD6;
-    outline-color: #3F8BD6;
+    border: 1px solid #499A4B;
+    color: #499A4B;
+    outline-color: #499A4B;
     margin-bottom: -5px;
 }
 
@@ -96,7 +91,7 @@
     top: 5px;
     width: 12px;
     height: 10px;
-    background-color: #BBDEFB;
+    background-color: #85C086;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 
@@ -104,7 +99,7 @@
     margin: -20px;
     margin-right: 20px;
     padding: 15px;
-    background: #98cdea;
+    background: #85C086;
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
     max-height: 250px;
 }
@@ -124,10 +119,13 @@
     margin-top: 30px;
     margin-bottom: 0px;
     font-size: 54px;
-    font-family: "Orbitron", serif;
+
+    font-family: "Red Hat Display", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 900;
     font-style: normal;
+
+    color: white;
 }
 .hack-signups p {
     margin: 2px 0px;
@@ -179,10 +177,11 @@
 }
 .hack-sponsors h1 {
     font-size: 54px;
-    font-family: "Orbitron", serif;
+    font-family: "Red Hat Display", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 900;
     font-style: normal;
+    color: white;
     text-align: center;
     margin-left: 8px;
     margin-right: 8px;
@@ -213,7 +212,7 @@
 .hack-sponsors ul p {
     margin: 0px;
     font-size: 1.5rem;
-    /* font-family: "Orbitron", serif; */
+    font-family: "Red Hat Display", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
@@ -259,11 +258,13 @@
     margin-top: 0px;
     margin-bottom: 0px;
     font-weight: 700;
+    color: white;
 }
 .hack-people h3 {
     margin-top: 0px;
     font-size: 15px;
     font-weight: 700;
+    color: white;
 }
 .hack-people ul li::before {
     background: none;
@@ -275,7 +276,7 @@
     top: 15px;
     width: 50px;
     height: 45px;
-    background-color: #BBDEFB;
+    background-color: #85C086;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 
