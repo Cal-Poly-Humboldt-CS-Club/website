@@ -8,6 +8,25 @@
 // );
 createPost(
     {
+        title: 'Arduino Workshop',
+        content: '<img src="../resources/images/s26/s26-meet4.png" alt="Arduino Workshop Flyer" style="width:100%"/><i style="margin-right:5px" class="ri-calendar-fill"></i><b style="font-size:16px">February 18 2026</b><br /><i style="margin-right:5px" class="ri-time-fill"></i> <b style="font-size:16px">5:00 - 6:30 PM</b><br /><i style="margin-right:5px" class="ri-map-pin-2-fill"></i> <b style="font-size:16px">BSS 166</b>',
+        size: 'third',
+        show: true
+    }
+)
+
+createPost(
+    {
+        title: 'Cold Golf',
+        content: '<img src="../resources/images/s26/s26-meet3.png" alt="Code Golf Flyer" style="width:100%"/><i style="margin-right:5px" class="ri-calendar-fill"></i><b style="font-size:16px">February 11 2026</b><br /><i style="margin-right:5px" class="ri-time-fill"></i> <b style="font-size:16px">5:00 - 6:30 PM</b><br /><i style="margin-right:5px" class="ri-map-pin-2-fill"></i> <b style="font-size:16px">BSS 166</b>',
+        size: 'third',
+        show: true
+    }
+)
+
+
+createPost(
+    {
         title: 'Git + GitHub Workshop',
         content: '<img src="../resources/images/s26/s26-meet2.png" alt="Git + GitHub Workshop Flyer" style="width:100%"/><i style="margin-right:5px" class="ri-calendar-fill"></i><b style="font-size:16px">February 4 2026</b><br /><i style="margin-right:5px" class="ri-time-fill"></i> <b style="font-size:16px">5:00 - 6:30 PM</b><br /><i style="margin-right:5px" class="ri-map-pin-2-fill"></i> <b style="font-size:16px">BSS 166</b>',
         size: 'third',
