@@ -280,7 +280,7 @@ function updateMenuItems() {
       link.classList.add("disabled");
     } else if (link.href.includes("https://csclubhumboldt.org/activities/index.html") && !news_enabled) {
       link.classList.add("disabled");
-    } else if (link.href.includes("https://csclubhumboldt.org/activities/hackathon/index.html") && !hackathon_enabled) {
+    } else if (link.href.includes("https://csclubhumboldt.org/activities/hackathon25/index.html") && !hackathon_enabled) {
       link.classList.add("disabled");
     } else if (link.href.includes("https://csclubhumboldt.org/activities/election/index.html") && !election_enabled) {
       link.classList.add("disabled");
@@ -297,7 +297,7 @@ function createMenuItems() {
   const menuItems = [
     { href: "https://csclubhumboldt.org", iconClass: "ri-home-4-fill", text: "Home", enabled: home_enabled },
     { href: "https://csclubhumboldt.org/activities/index.html", iconClass: "ri-newspaper-fill", text: "Club News", enabled: news_enabled },
-    { href: "https://csclubhumboldt.org/activities/hackathon/index.html", iconClass: "ri-terminal-box-fill", text: "Hackathon", enabled: hackathon_enabled },
+    { href: "https://csclubhumboldt.org/activities/hackathon25/index.html", iconClass: "ri-terminal-box-fill", text: "Hackathon", enabled: hackathon_enabled },
     { href: "https://csclubhumboldt.org/activities/election/index.html", iconClass: "ri-bank-fill", text: "Elections", enabled: election_enabled },
     { href: "https://csclubhumboldt.org/activities/icpc/index.html", iconClass: "ri-trophy-fill", text: "ICPC", enabled: icpc_enabled },
   ];
