@@ -1,5 +1,5 @@
 # Redirects
 [[redirects]]
   from = "/test"
-  to = "/hackathon"
+  to = "https://csclubhumboldt.org/hackathon"
   status = 301
