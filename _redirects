@@ -1,6 +1,12 @@
-# Redirects from what the browser requests to what we serve
-/test2               /icpc
-/blog/my-post.php    /blog/my-post
-/news                /blog
-/cuties              https://www.petsofnetlify.com
-/authors/c%C3%A9line /authors/about-c%C3%A9line
+# Redirects from [what the browser requests] to [what we serve]
+# Hackathon Related Redirects
+/hackathon              /activities/hackathon25/index.html
+/hackathon/devpost      https://hackathonforgood2026.devpost.com/
+/hackathon/signup       https://docs.google.com/forms/d/e/1FAIpQLSfQESRRbkAgjhw-nJcLoPdlGKmfZFtT2Eq703dsCMs7fa5rDw/viewform?usp=dialog
+/hackathon25            /activities/hackathon25/index.html
+
+/icpc                   /activities/icpc/index.html
+
+/election               /activities/election/index.html
+/giving                 https://www.justgiving.com/campaign/computersci2026
+/discordinvite          https://discord.gg/BFcGatqw6d
